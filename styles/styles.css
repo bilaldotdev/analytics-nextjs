@@ -1,0 +1,24 @@
+:root {
+  --bg-primary: #ebf1ff;
+  --bg-primary-dark: #becffe;
+  --bg-primary-darker: #93a9fd;
+  --text-primary: #65359f;
+  --text-primary-light: #a17bcf;
+  --text-primary-lighter: #c7aee7;
+  --text-secondary: #000000;
+  --text-secondary-light: #303030;
+  --text-secondary-lighter: #5e5e5e;
+}
+/* task time picker */
+.time-display {
+  color: rgb(33, 185, 66);
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* task time picker */
+.active-a-tag {
+  background-color: var(--bg-primary-darker);
+  color: var(--text-secondary);
+  padding-block: 8px;
+  padding-inline: 4px;
+}

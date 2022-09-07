@@ -1,0 +1,16 @@
+{
+  "explorer.confirmDelete": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javaScript React]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.trimAutoWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": false,
+  "files.trimFinalNewlines": true
+}
