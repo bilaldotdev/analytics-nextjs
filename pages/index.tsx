@@ -28,14 +28,14 @@ const LandingPage = () => {
   const dragContainer = useRef(null);
   const [show, setShow] = useState(false);
   const [sortedArray, setSortedArray] = useState<Array<any>>([]);
-  const script_code = `<script async src='https://www.googletagmanager.com/gtag/js?id=G-J172X0MJJB'></script>
-              <script> 
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+  const script_code = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-6L6G0RV5CL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-              gtag('config', 'G-J172X0MJJB');
-              </script>`;
+  gtag('config', 'G-6L6G0RV5CL');
+</script>`;
   /* dynamic classes work only if that class is not already applied */
   /* <<--------------------------------------------------------->> */
   const loadAnalytics = (): void => {
