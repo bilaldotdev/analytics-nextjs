@@ -1,3 +1,4 @@
+import { Analytics } from 'components';
 import type { AppProps } from 'next/app';
 import Link from 'next/link';
 import '../styles/globals.css';
@@ -7,6 +8,7 @@ import '../styles/styles.css';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      {/* <Analytics /> */}
       <div className='flex flex-row gap-4'>
         <Link href='/'>
           <a>Home</a>
