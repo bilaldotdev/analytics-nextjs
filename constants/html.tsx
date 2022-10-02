@@ -1,4 +1,4 @@
-const TW_UTILS = [
+export const TW_UTILS = [
   'accentColor',
   'accessibility',
   'alignContent',

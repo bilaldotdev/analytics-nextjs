@@ -59,11 +59,9 @@ const LandingPage = () => {
       console.log(generated_scripts[i], 'generated_scripts');
     }
 
-    setTimeout(() => {
-      for (let i = 0; i < generated_scripts.length; i++) {
-        document.head.appendChild(generated_scripts[i]);
-      }
-    }, 4000);
+    for (let i = 0; i < generated_scripts.length; i++) {
+      document.head.appendChild(generated_scripts[i]);
+    }
   };
   /* <<--------------------------------------------------------->> */
   useEffect(() => {
